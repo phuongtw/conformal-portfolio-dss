@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "selected_epochs": 24,
+  "max_epochs": 150,
+  "patience": 15,
+  "learning_rate": 0.001,
+  "weight_decay": 0.001,
+  "alpha": 0.1,
+  "lambda": 1.0,
+  "lookback": 252,
+  "cost_bps": 10,
+  "garch_fit_period": "2010-2018",
+  "garch_refit": false,
+  "python": "3.14.6",
+  "packages": {
+    "torch": "2.14.1",
+    "arch": "8.0.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.9.0",
+    "cvxpy": "1.9.3",
+    "yfinance": "1.7.0"
+  }
+}
